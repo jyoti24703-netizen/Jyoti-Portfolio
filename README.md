@@ -15,14 +15,8 @@
 - Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
 
 
-## 🧑‍💻 How to Use
 
-### 1. Clone the Repo
 
-```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
 
 ### 2. Install Dependencies
 
