@@ -22,7 +22,7 @@ const Skills = () => (
       {SkillsInfo.map((category) => (
         <div
           key={category.title}
-          className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
+          className="dynamic-card bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
           shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]"
         >
           <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">

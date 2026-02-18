@@ -48,6 +48,53 @@ import banasthaliLogo from './assets/education_logo/banasthali_logo.png';
 // Different images so both projects look different
 import chatAppLogo from './assets/work_logo/cm.png';
 import snapsyLogo from './assets/work_logo/image_search.png';
+import emsLogo from './assets/work_logo/task_rem.png';
+
+// =======================================================
+//                    PROFILE DATA
+// =======================================================
+export const profileData = {
+  firstName: 'Jyoti',
+  lastName: 'Yadav',
+  fullName: 'Jyoti Yadav',
+  headline: 'Full Stack Developer',
+  roles: [
+    'Full Stack Developer',
+    'MERN Stack Developer',
+    'React & Tailwind Specialist',
+    'Node.js & Express Backend Developer',
+  ],
+  bio: "I am Jyoti Yadav, a Full Stack Developer based in Lucknow, Uttar Pradesh. I build scalable web applications with strong focus on clean UI, reliable backend APIs, and real-time experiences.",
+  summary:
+    'I focus on clean architecture, maintainable code, and production-ready full-stack delivery from frontend to backend.',
+  location: 'Lucknow, Uttar Pradesh',
+  availability: 'Open to internships and full-time roles',
+  email: 'jyoti24703@gmail.com',
+  phone: '+91 95488 11708',
+  socials: {
+    github: 'https://github.com/jyoti24703-netizen',
+    linkedin: 'https://www.linkedin.com/in/jyoti-yadav-043b56320/',
+    leetcode: 'https://leetcode.com/u/carpeceaser/',
+  },
+  resume: {
+    // Update these three fields anytime you want to change your resume.
+    viewUrl:
+      'https://drive.google.com/file/d/1-nbcjSjNneDCB78VZo5p_dOJbibRv8YF/view?usp=sharing',
+    downloadUrl:
+      'https://drive.google.com/uc?export=download&id=1-nbcjSjNneDCB78VZo5p_dOJbibRv8YF',
+    fileName: 'Jyoti-Yadav-Resume.pdf',
+  },
+  certifications: [
+    {
+      title: 'NPTEL - Programming, Data Structures and Algorithms',
+      url: 'https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs131/Course/NPTEL24CS131S55120099904073544.pdf',
+    },
+    {
+      title: 'Typing.com - Typing Speed & Accuracy Certification',
+      url: 'https://www.typing.com/apiv1/student/tests/339130469/164547525/certificate?language=en',
+    },
+  ],
+};
 
 // =======================================================
 //                      SKILLS
@@ -157,7 +204,7 @@ export const education = [
     id: 0,
     img: amityLogo,
     school: "Amity University, Lucknow",
-    date: "2022 – 2026",
+    date: "2022 - 2026",
     grade: "B.Tech CSE",
     degree: "Bachelor of Technology in Computer Science & Engineering",
     desc: "Studying software engineering, algorithms, databases, and full-stack web development.",
@@ -166,7 +213,7 @@ export const education = [
     id: 1,
     img: asianSchoolLogo,
     school: "The Asian School, Shikohabad (CBSE)",
-    date: "2020 – 2021",
+    date: "2020 - 2021",
     grade: "85%",
     degree: "Senior Secondary (Class XII)",
     desc: "PCM with Computer Science.",
@@ -176,7 +223,7 @@ export const education = [
     id: 2,
     img: banasthaliLogo,
     school: "Banasthali Vidyapith, Rajasthan",
-    date: "2018 – 2019",
+    date: "2018 - 2019",
     grade: "91.87%",
     degree: "High School (Class X)",
     desc: "Science with Computer Applications.",
@@ -200,12 +247,30 @@ export const projects = [
 
   {
     id: 1,
-    title: "Snapsy – Visual Inspiration Board",
+    title: "Snapsy - Visual Inspiration Board",
     description:
-      "A photo-sharing platform for uploading, organizing, and saving images with secure user authentication and cloud storage integration.",
+      "Full-stack content board platform with secure authentication, cloud media handling, and responsive multi-device UX.",
+    highlights: [
+      "Developed a full-stack platform using React.js, Node.js, Express.js, and MongoDB.",
+      "Implemented JWT-based authentication and secure user sessions.",
+      "Integrated cloud-backed image storage and media handling.",
+      "Designed a fully responsive, multi-device user interface.",
+      "Built and consumed RESTful APIs for board and content management.",
+    ],
     image: snapsyLogo,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/jyoti24703-netizen/snapsy-project.git",
-    webapp: "",
+    webapp: "https://snapsy-final-1.onrender.com/",
+  },
+
+  {
+    id: 2,
+    title: "Enterprise Employee Management System (EMS Console)",
+    description:
+      "Built a full-stack Employee Management System with React, Vite, Tailwind, Node.js, Express, MongoDB, and JWT with capability-based RBAC for admin and employee access. Engineered enterprise task workflows (assigned, accepted, in-progress, completed, verified, failed, reopened) with modification and extension approvals, SLA timeout automation, file uploads, and complete activity timeline and audit tracking. Implemented meeting management (RSVP, templates, notifications), community notices, and analytics dashboards for performance and failure insights.",
+    image: emsLogo,
+    tags: ["React", "Vite", "Tailwind", "Node.js", "Express", "MongoDB", "JWT", "RBAC"],
+    github: "https://github.com/jyoti24703-netizen/ems-console",
+    webapp: "https://ems-console-iota.vercel.app/",
   },
 ];
